@@ -283,7 +283,9 @@ public class minesweeper extends Application implements Initializable {
 		// TODO Auto-generated method stub
 		final FXMLLoader loader = new FXMLLoader(getClass().getResource("/resource/minesweeper.fxml"));
 		final Pane p = loader.load();
-
+		
+		primaryStage.setTitle("Minesweeper");
+		
 		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < 10; j++) {
 				mineLabels[i][j] = new Label("");
