@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="minesweeper1.minesweeper">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button fx:id="spot00" layoutX="20.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot01" layoutX="40.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot02" layoutX="60.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot03" layoutX="80.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot04" layoutX="100.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot05" layoutX="120.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot06" layoutX="140.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot07" layoutX="160.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot08" layoutX="180.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot09" layoutX="200.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot10" layoutX="20.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot11" layoutX="40.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot12" layoutX="60.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot13" layoutX="80.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot14" layoutX="100.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot15" layoutX="120.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot16" layoutX="140.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot17" layoutX="160.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot18" layoutX="180.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot19" layoutX="200.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot20" layoutX="20.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot21" layoutX="40.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot22" layoutX="60.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot23" layoutX="80.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot24" layoutX="100.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot25" layoutX="120.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot26" layoutX="140.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot27" layoutX="160.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot28" layoutX="180.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot29" layoutX="200.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot30" layoutX="20.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot31" layoutX="40.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot32" layoutX="60.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot33" layoutX="80.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot34" layoutX="100.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot35" layoutX="120.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot36" layoutX="140.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot37" layoutX="160.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot38" layoutX="180.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot39" layoutX="200.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot40" layoutX="20.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot41" layoutX="40.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot42" layoutX="60.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot43" layoutX="80.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot44" layoutX="100.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot45" layoutX="120.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot46" layoutX="140.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot47" layoutX="160.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot48" layoutX="180.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot49" layoutX="200.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot50" layoutX="20.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot51" layoutX="40.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot52" layoutX="60.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot53" layoutX="80.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot54" layoutX="100.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot55" layoutX="120.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot56" layoutX="140.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot57" layoutX="160.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot58" layoutX="180.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot59" layoutX="200.0" layoutY="120.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot60" layoutX="20.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot61" layoutX="40.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot62" layoutX="60.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot63" layoutX="80.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot64" layoutX="100.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot65" layoutX="120.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot66" layoutX="140.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot67" layoutX="160.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot68" layoutX="180.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot69" layoutX="200.0" layoutY="140.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot70" layoutX="20.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot71" layoutX="40.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot72" layoutX="60.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot73" layoutX="80.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot74" layoutX="100.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot75" layoutX="120.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot76" layoutX="140.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot77" layoutX="160.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot78" layoutX="180.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot79" layoutX="200.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot80" layoutX="20.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot81" layoutX="40.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot82" layoutX="60.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot83" layoutX="80.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot84" layoutX="100.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot85" layoutX="120.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot86" layoutX="140.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot87" layoutX="160.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot88" layoutX="180.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot89" layoutX="200.0" layoutY="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot90" layoutX="20.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot91" layoutX="40.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot92" layoutX="60.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot93" layoutX="80.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot94" layoutX="100.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot95" layoutX="120.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot96" layoutX="140.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot97" layoutX="160.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot98" layoutX="180.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="spot99" layoutX="200.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" textAlignment="CENTER" />
+            <Button fx:id="restartGame" layoutX="250.0" layoutY="90.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="20.0" text="Restart" textAlignment="CENTER">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Label fx:id="numMines" layoutX="250.0" layoutY="60.0" text="Mines: 10">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="smile" fitHeight="32.0" fitWidth="32.0" layoutX="250.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003140469293097/smile.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="shades" fitHeight="32.0" fitWidth="32.0" layoutX="250.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003139412459520/shades.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="dead" fitHeight="32.0" fitWidth="32.0" layoutX="250.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003136102760518/dead.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="boom" fitHeight="13.0" fitWidth="13.0" layoutX="354.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003133137780736/boom.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="flags" layoutX="250.0" layoutY="20.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="20.0" text="Flag" textAlignment="CENTER">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="mine" fitHeight="13.0" fitWidth="13.0" layoutX="320.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mine1" fitHeight="13.0" fitWidth="13.0" layoutX="354.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mine2" fitHeight="13.0" fitWidth="13.0" layoutX="387.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mine3" fitHeight="13.0" fitWidth="13.0" layoutX="320.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mine4" fitHeight="13.0" fitWidth="13.0" layoutX="354.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mine5" fitHeight="13.0" fitWidth="13.0" layoutX="387.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mine6" fitHeight="13.0" fitWidth="13.0" layoutX="320.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mine7" fitHeight="13.0" fitWidth="13.0" layoutX="354.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mine8" fitHeight="13.0" fitWidth="13.0" layoutX="387.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/787003137939472384/mine.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="flag" fitHeight="20.0" fitWidth="20.0" layoutX="300.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="https://cdn.discordapp.com/attachments/758486779254538271/786729678286487562/flag.png" />
+               </image>
+            </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
