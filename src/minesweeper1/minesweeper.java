@@ -996,7 +996,7 @@ public class minesweeper extends Application implements Initializable {
 									if (i == k && j == l) {
 										temp--;
 									} else if (temp == 0) {
-										System.out.println("" + mine);
+										//System.out.println("" + mine);
 										mine.setVisible(true);
 										mine.relocate(3 + 20 * (l + 1), 3 + 20 * (k + 1));
 									} else if (temp == 1) {
